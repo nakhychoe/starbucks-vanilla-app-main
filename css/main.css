@@ -8,6 +8,9 @@ body {
 img {
   display: block;
 }
+a {
+  text-decoration: none;
+}
 
 /* HEADER */
 header { 
@@ -40,7 +43,14 @@ header .sub-menu ul.menu li {
   
 }
 header .sub-menu ul.menu li a {
-  
+  background-color: white;
+  font-size: 12px;
+  padding: 11px 16px;
+  display: block;
+  color: #656565;
+}
+header .sub-menu ul.menu li a:hover {
+  color: #000;
 }
 header .sub-menu .search {
   
