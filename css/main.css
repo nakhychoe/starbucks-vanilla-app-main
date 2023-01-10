@@ -76,6 +76,15 @@ header .sub-menu .search input{
   border: 1px solid #ccc;
   box-sizing: border-box; 
   border-radius: 5px;
+  outline: none;
+  background-color: #fff;
+  color: #777;
+  font-size: 12px;
+  transition: width .4s;
+}
+header .sub-menu .search input:focus{
+  width: 190px;
+  border-color: #669900;
 }
 header .sub-menu .search .material-icons {
   
