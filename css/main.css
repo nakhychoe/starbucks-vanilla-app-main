@@ -31,7 +31,6 @@ header .logo {
   bottom: 0;
   left: 0;
   margin: auto; 
-  display: none;
 }
 header .sub-menu {
   position: absolute;
