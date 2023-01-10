@@ -14,7 +14,8 @@ a {
 
 /* HEADER */
 header { 
-  /* background-color: royalblue; */
+  background-color: #f6f5f0;
+  border-bottom: 1px solid #c8c8c8;
 }
 header .inner {
   /* 가운데 정렬  */
@@ -59,7 +60,6 @@ header .sub-menu ul.menu li::before {
   margin: auto 0;
 }
 header .sub-menu ul.menu li a {
-  background-color: white;
   font-size: 12px;
   padding: 11px 16px;
   display: block;
