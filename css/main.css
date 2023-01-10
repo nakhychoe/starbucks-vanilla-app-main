@@ -42,6 +42,9 @@ header .sub-menu ul.menu {
 header .sub-menu ul.menu li {
   position: relative;
 }
+header .sub-menu ul.menu li:first-child::before {
+  display: none;
+}
 header .sub-menu ul.menu li::before {
   content: "";
   width: 1px;
