@@ -34,7 +34,7 @@ header .logo {
   display: none;
 }
 header .sub-menu {
-
+  display: flex;
 }
 header .sub-menu ul.menu {
   font-family: Arial, sans-serif;
@@ -68,6 +68,7 @@ header .sub-menu ul.menu li a:hover {
 }
 header .sub-menu .search {
   height: 34px;
+  position: relative;
 }
 header .sub-menu .search input{
   width: 36px;
@@ -87,5 +88,10 @@ header .sub-menu .search input:focus{
   border-color: #669900;
 }
 header .sub-menu .search .material-icons {
-  
+  height: 24px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 5px;
+  margin: auto 0;
 }
