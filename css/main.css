@@ -94,4 +94,8 @@ header .sub-menu .search .material-icons {
   bottom: 0;
   right: 5px;
   margin: auto 0;
+  transition: .4s;
+}
+header .sub-menu .search.focused .material-icons {
+  opacity: 0;
 }
