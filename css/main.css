@@ -370,11 +370,28 @@ header .badges .badge {
   justify-content: flex-end;
   align-items: center;
 }
-.notice .notice-line .inner__right h2 {
+.notice .notice-line .inner__left h2 {
+  color: #fff;
   font-size: 17px;
   font-weight: 700;
+  margin-right: 20px;
 }
-
+.notice .notice-line .inner__left .swiper {
+  height: 62px;
+  flex-grow: 1;
+}
+.notice .notice-line .inner__left .swiper-slide {
+  height: 62px;
+  display: flex;
+  align-items: center;
+}
+.notice .notice-line .inner__left .swiper-slide a {
+  color: #fff;
+}
+.notice .notice-line .inner__left .notice-line_more {
+  display: flex;
+  align-items: center;
+}
 .notice .notice-line .inner__right .toggle-promotion {
   width: 62px;
   height: 62px;
