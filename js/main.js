@@ -51,3 +51,13 @@ new Swiper('.notice-line .swiper', {
   autoplay: true,
   loop: true
 });
+
+new Swiper('.promotion .swiper',{
+  slidesPerView: 3, // 한 번에 보여줄 슬라이드 개수 
+  centeredSlides: true,
+  spaceBetween: 10, // 슬라이드 사이 여백 
+  loop: true,
+  autoplay: {
+    delay: 5000
+  }
+});
