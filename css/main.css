@@ -534,3 +534,22 @@ header .badges .badge {
   flex-grow: 1;
 }
 
+/* YOUTUBE VIDEO */
+.youtube {
+
+}
+.youtube .youtube__area {
+  width: 1920px;
+  background-color: orange;
+}
+/* 비율 계산: 100%: 56.25% = 16:9  */
+.youtube .youtube__area::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 0;
+  padding-top: 56.25%;
+}
+.youtube .youtube__cover {
+
+}
